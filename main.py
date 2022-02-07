@@ -9,7 +9,7 @@ a1 = float
 a2 = float
 notaDesconhecida = float
 media = float
-mediaRedonda = "{:.2f}".format(media)
+
 
 ##Funções
 def mediaCalculo(p1, p2, smaug, a1, a2):
@@ -19,6 +19,7 @@ def mediaCalculo(p1, p2, smaug, a1, a2):
     a1 = float(input("Qual foi sua nota de Atividades 1?"))
     a2 = float(input("Qual foi sua nota de Atividades 2?"))
     media = float(0.15 * a1 + 0.25 * p1 + 0.2 * a2 + 0.3 * p2 + 0.1 * smaug)
+    mediaRedonda = "{:.2f}".format(media)
     print("Sua média de Cálculo é: " + str(mediaRedonda))
 
 def iniciarPrograma():
