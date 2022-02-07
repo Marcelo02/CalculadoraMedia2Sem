@@ -13,6 +13,7 @@ media = float
 
 ##Funções
 def mediaCalculo(p1, p2, smaug, a1, a2):
+    ##Função que calcula a média da matéria de cálculo
     p1 = float(input("Qual foi sua nota na P1?"))
     p2 = float(input("Qual foi sua nota na P2?"))
     smaug = float(input("Qual foi sua nota de apresentação?"))
@@ -23,6 +24,7 @@ def mediaCalculo(p1, p2, smaug, a1, a2):
     print("Sua média de Cálculo é: " + str(mediaRedonda))
 
 def iniciarPrograma():
+    ##Função de início do programa, criada para recursão
     print("Olá Aluno!\nQuer saber a média de qual disciplina?")
     x = int(input("1 - Cálculo\n"
                   "2 - Português\n"
