@@ -36,7 +36,7 @@ def iniciarPrograma():
                   "8 - Sair\n"))
     if x == 1:
         mediaCalculo(p1, p2, smaug, a1, a2)
-    elif x == 2 or 3 or 4 or 5 or 6:
+    elif x == 2:
         print("Não temos a média dessas matérias")
         iniciarPrograma()
     elif x == 7:
